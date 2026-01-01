@@ -1,5 +1,7 @@
 # `@warpy-ai/widget`
 
+[![npm](https://img.shields.io/npm/v/%40warpy-ai%2Fwidget?label=npm)](https://www.npmjs.com/package/@warpy-ai/widget)
+
 Tiny, framework-agnostic loader for the Warpy embeddable widget.
 
 This package **does not bundle the widget UI**. It simply injects the Warpy widget `<script>` (`widget.js`) and passes configuration via `data-*` attributes.
