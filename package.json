@@ -1,0 +1,63 @@
+{
+  "name": "@warpy-ai/widget",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "./core/mountWidget.js",
+  "exports": {
+    ".": {
+      "types": "./core/mountWidget.d.ts",
+      "default": "./core/mountWidget.js"
+    },
+    "./react": {
+      "types": "./react/index.d.ts",
+      "default": "./react/index.js"
+    },
+    "./angular": {
+      "types": "./angular/index.d.ts",
+      "default": "./angular/index.js"
+    },
+    "./vue": {
+      "types": "./vue/index.d.ts",
+      "default": "./vue/index.js"
+    },
+    "./svelte": {
+      "types": "./svelte/index.d.ts",
+      "default": "./svelte/index.js"
+    },
+    "./vanilla": {
+      "types": "./vanilla/index.d.ts",
+      "default": "./vanilla/index.js"
+    }
+  },
+  "files": [
+    "core",
+    "react",
+    "angular",
+    "vue",
+    "svelte",
+    "vanilla",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^17.0.0",
+    "react": "^18.0.0",
+    "vue": "^3.3.0",
+    "svelte": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@angular/core": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "svelte": {
+      "optional": true
+    }
+  }
+}
